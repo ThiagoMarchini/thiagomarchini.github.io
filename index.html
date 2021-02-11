@@ -5,31 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <style>
+
+        body {
+            background-color: #FFF3B0;
+        }
+
+        h1{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: #335C67;
+        }
+
+        h3 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #540B0E;
+        }
+
+        p {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #E09F3E;
+            text-align: justify;
+        }
+
+        ul {
+            line-height: 30px;;
+        }
+        strong{
+            text-decoration: underline;
+        }
+
+        em {
+            text-decoration: underline;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #9E2A2B;
+        }
+
+        .bigger {
+            font-size: 115%;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Thiago Marchini</h1>
-    <img id="selfie" src="imagens/selfie.jpg" alt="Selfie do Thiago em frente à Marukai" width="150px">
-    <p>Sou uma pessoa alegre, de bom coração, que adora aprender sempre mais sobre tecnologia, e um amante da gastronomia. Sou um curitibano, atualmente residindo em São Lourenço da Serra - SP</p>
+    <img id="selfie" class="center" src="imagens/selfie.jpg" alt="Selfie do Thiago em frente à Marukai" width="150px">
+    <p>Sou uma pessoa alegre, que adora aprender sempre mais sobre tecnologia, e com o ela pode ser usada para melhorar, mudar e transformar a cida das pessoas. Além disso, sou também um amante da gastronomia, e das grandes viagens que esse mundo culinário diverso, pode proporcionar. Sou um <em style="text-decoration: none">curitibano</em>, atualmente residindo em <em style="text-decoration: none">São Lourenço da Serra - SP</em>.</p>
     <h3 id="habilidades">Minhas habilidades:</h3>
     <ul>
-        <li><strong>Dinâmico</strong></li>
+        <li class="bigger"><strong>Dinâmico</strong></li>
         <li>Prestativo</li>
         <li>Atento a detalhes</li>
-        <li><em>Grande capacidade de concentração e foco</em></li>
+        <li class="bigger"><em>Grande capacidade de concentração e foco</em></li>
     </ul>
     <h3 id="formacao">Formação:</h3>
     <ul>
-        <li><em>Desenvolvimento web na Trybe | 2021 - 2022</em></li>
+        <li class="bigger"><em>Desenvolvimento web na Trybe | 2021 - 2022</em></li>
         <li>Sistemas da Informação na Estácio | 2020-2024</li>
         <li>CST em Gastronomia no CEUNSP | 2019 - 2020 (Trancado)</li>
-        <li>Controlador de Tráfego Aéreo no ICEA | 2014</li>
+        <li class="bigger"><em>Controlador de Tráfego Aéreo no ICEA | 2014</em></li>
     </ul>
     <h3>Links interessantes:</h3>
     <h4>Gastronomia</h4>
-    <a href="https://www.youtube.com/channel/UCjkGXhZsu5H64fWuNQNf1Xw">Canal no YouTube do Mikey Chen</a><br>
-    <a href="https://www.anamariabrogui.com.br/">Ana Maria Brógui</a>
+        <ul>
+            <li><a href="https://www.youtube.com/channel/UCjkGXhZsu5H64fWuNQNf1Xw">Canal no YouTube do Mikey Chen</a></li>
+            <li><a href="https://www.anamariabrogui.com.br/">Ana Maria Brógui</a></li>
+        </ul>
     <h4>Tecnologia</h4>
-    <a href="https://linustechtips.com/blogs/">Blog Linus Tech Tips</a>
+        <ul>
+            <li><a href="https://linustechtips.com/blogs/">Blog Linus Tech Tips</a></li>
+        </ul>
+
     <h4>Menu</h4>
     <a href="#selfie">Foto</a><br>
     <a href="#habilidades">Habilidades</a><br>
