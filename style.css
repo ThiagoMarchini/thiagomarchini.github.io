@@ -27,6 +27,11 @@ p {
 ul {
     line-height: 30px;;
 }
+
+ul.habilidades li:nth-child(2n+1) {
+    text-decoration:underline;
+}
+
 strong{
     text-decoration: underline;
 }
@@ -49,8 +54,9 @@ a:hover {
 .descricao {
     display:inline-block;
     max-width: 60%;
-    height:100px;
-    float: top;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 
 .bigger {
