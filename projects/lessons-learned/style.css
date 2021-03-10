@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  border: 0;
+  padding: 0%;
+  margin: 0%;
+  margin-right: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  color: rgb(163, 163, 135);
+}
+
+th {
+  font-size: 20px;
+}
+
+footer {
+  text-align: right;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-image: linear-gradient(#6b705c, rgb(253, 251, 251));
+}
+
+#minha_foto {
+  overflow: hidden;
+  height: 250px;
+  margin-top: 130px;
+  margin-left: 120px;
+  border: 20px solid rgb(203, 153, 126);
+  border-radius: 40%;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  text-align: justify;
+  display: inline-block;
+  width: 30%;
+  line-height: 25px;
+  margin-left: 90px;
+  font-size: 18px;
+}
+
+.lado-direito {
+  text-align: justify;
+  display: inline-block;
+  width: 15%;
+  line-height: 25px;
+  margin-left: 90px;
+  font-size: 18px;
+}
+
+.icon {
+  height: 30px;
+}
+
+#listas {
+  display: inline-block;
+  width: 100%;
+  margin-left: 150px;
+  line-height: 25px;
+}
+
+#listas ol , ul {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#links {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-top: 32px;
+}
