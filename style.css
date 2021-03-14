@@ -7,15 +7,19 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: #540B0E;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #540B0E;
+    width: fit-content;
+    margin-bottom: 0px;
 }
 
 h4 {
     color: #335C67;
+    margin-bottom: 0px;
 }
 
 p {
@@ -25,7 +29,9 @@ p {
 }
 
 ul {
-    line-height: 30px;;
+    line-height: 30px;
+    width: fit-content;
+    display: inline-block;
 }
 
 ul.habilidades li:nth-child(2n+1) {
@@ -76,4 +82,34 @@ a:hover {
     padding: 10px;
     background-color: #E09F3E;
     border-radius: 30%;
+}
+
+#sobre {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 200px;
+}
+
+.sideBySide {
+    width: fit-content;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+}
+
+#projetos {
+    display: inline-block;
+    text-align: top;
+    width: fit-content;
+    height: fit-content;
+    width: fit-content;
+}
+
+#links {
+    margin-left: 150px;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    width: fit-content;
 }
