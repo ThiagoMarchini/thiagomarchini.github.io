@@ -9,9 +9,10 @@ button {
 }
 
 #colors-guess {
-  display: block;
+  display: flex;
   margin: auto;
-  width: 416px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #output , #button , #placar {
