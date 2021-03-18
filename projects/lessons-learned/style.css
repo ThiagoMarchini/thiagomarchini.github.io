@@ -12,7 +12,7 @@ body {
 
 h1 {
   color: black;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 h2 {
@@ -26,7 +26,7 @@ a {
 
 a:hover {
   font-weight: 600;
-  color: rgb(163, 163, 135);
+  color: rgb(203, 153, 126);
 }
 
 th {
@@ -54,9 +54,12 @@ header {
 #titulo {
   margin: auto;
   height: auto;
-  border: 1px solid green;
   order: 1;
   align-self: center;
+}
+
+#nav a:first-of-type {
+  margin-bottom: 5px;
 }
 
 #nav {
@@ -68,7 +71,6 @@ header {
 
 #sobre {
   margin-bottom: 20px;
-  border: 1px solid red;
   margin-top: 90px;
   display: flex;
   justify-content: space-around;
@@ -84,14 +86,12 @@ header {
 }
 
 #artigo {
-  border: 1px solid blue;
   text-align: justify;
   width: 420px;
   align-self: center;
 }
 
 #lado-direito {
-  border: 1px solid blue;
   text-align: justify;
   width: 200px;
   align-self: center;
@@ -100,16 +100,5 @@ header {
 #listas {
   display: flex;
   justify-content: space-around;
-}
-
-#licoes_aprendidas {
-
-}
-
-#licoes_a_aprender {
-
-}
-
-#links {
-
+  margin-bottom: 40px;
 }
