@@ -6,25 +6,10 @@ body {
 h1 {
   color: black;
   font-size: 36px;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  margin-bottom: 0;
-  margin-top: 15px;
 }
 
 h2 {
   font-size: 20px;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  border: 0;
-  padding: 0%;
-  margin: 0%;
-  margin-right: 40px;
 }
 
 a {
@@ -45,13 +30,32 @@ footer {
   text-align: right;
 }
 
-#cabecalho {
+header {
+  border: 1px solid red;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 90px;
-  background-image: linear-gradient(#6b705c, rgb(253, 251, 251));
+  height: 70px;
+  background-image: linear-gradient(grey, white);
+  display: flex;
+}
+
+#titulo {
+  margin: auto;
+  height: auto;
+  border: 1px solid green;
+  order: 1;
+  align-self: center;
+}
+
+#nav {
+  border: 1px solid blue;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 #minha_foto {
