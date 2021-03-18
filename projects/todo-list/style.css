@@ -1,35 +1,75 @@
-button {
-  display: inline-block;
-}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: Courier New, Courier, monospace;}
 
 body {
   background-color: mediumseagreen;
   font-family: Courier New, Courier, monospace;
 }
 
+h1 {
+  font-size: xx-large;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 main {
-  margin: 50px;
+  margin: 25px;
   padding: 20px;
   border-radius: 20px;
   border: 5px solid lightgreen;
   background-color: white;
 }
 
-header {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-p {
-  margin: auto;
-  width: 600px;
-  margin-bottom: 20px;
-}
-
 ol {
   margin: 20px;
   padding-left: 10px;
+}
+
+button {
+  width: 120px;
+}
+
+.inputs {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#texto-tarefa {
+  width: 280px;
+  margin-right: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+
+#selecao, #mover, #salva-apaga {
+  margin: auto;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#remover-selecionado, #mover-baixo, #salvar-tarefas {
+  margin-left: 10px;
 }
 
 .selected {
@@ -38,14 +78,4 @@ ol {
 
 .completed {
   text-decoration: line-through solid rgb(0 , 0 , 0);
-}
-
-.list {
-  margin: 10px 30px;
-}
-
-.bottom-buttons {
-  margin: auto;
-  display: block;
-  width: 680px;
 }

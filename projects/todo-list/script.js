@@ -124,7 +124,7 @@ function retrieveList() {
 
 // Captura de cliques e lógica básica
 window.onload = function () {
-  if (localStorage) {
+  if (localStorage !== "") {
     retrieveList();
   }
   document.addEventListener('click', (event) => {
@@ -154,10 +154,12 @@ window.onload = function () {
     }
   }, false);
   document.addEventListener('dblclick', (event) => {
-    if (event.target.classList.contains('completed')) {
-      removeCompletedTask(event.target);
-    } else {
-      completeTask(event.target);
+    if (event.target.classList.contains('tarefa')) {
+      if (event.target.classList.contains('completed')) {
+        removeCompletedTask(event.target);
+      } else {
+        completeTask(event.target);
+      }
     }
   }, false);
 };
