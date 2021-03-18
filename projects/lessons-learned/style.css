@@ -106,3 +106,7 @@ header {
   margin-bottom: 40px;
   flex-wrap: wrap;
 }
+
+#licoes_aprendidas , #licoes_a_aprender , #links {
+  margin-bottom: 20px;
+}
