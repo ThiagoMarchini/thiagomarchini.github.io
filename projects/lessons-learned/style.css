@@ -83,22 +83,26 @@ header {
   border: 10px solid rgb(203, 153, 126);
   border-radius: 40%;
   align-self: center;
+  margin-bottom: 20px;
 }
 
 #artigo {
   text-align: justify;
   width: 420px;
   align-self: center;
+  margin-bottom: 20px;
 }
 
 #lado-direito {
   text-align: justify;
   width: 200px;
   align-self: center;
+  margin-bottom: 20px;
 }
 
 #listas {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
