@@ -51,10 +51,17 @@ function removeAllChildNodes(parent) {
   }
 }
 
+function removeEmpty(array) {
+  
+}
+
 function generateLetter() {
   const parent = document.getElementById('carta-gerada');
   removeAllChildNodes(parent);
-  const words = splitText();
+  let words = splitText();
+  console.log(words);
+  words = words.filter(item => item);
+  console.log(words);
   for (let index3 = 0; index3 < words.length; index3 += 1) {
     const span = document.createElement('span');
     const classesArray = chooseClass();
@@ -67,7 +74,8 @@ function generateLetter() {
 }
 
 function contador() {
-  const words = splitText();
+  let words = splitText();
+  words = words.filter(item => item);
   wordCount = words.length;
   const paragraph = document.getElementById('carta-contador');
   paragraph.innerText = `${wordCount}`;
