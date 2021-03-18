@@ -30,8 +30,8 @@ p {
 
 ul {
     line-height: 30px;
-    width: fit-content;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 strong{
@@ -61,12 +61,39 @@ a:hover {
 }
 
 .about {
-    border: 1px solid red;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .description {
     max-width: 300px;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lists2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links {
+    display:flex;
+    flex-direction: column;
+}
+
+h3 {
+    align-self: center;
 }
