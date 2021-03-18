@@ -1,11 +1,18 @@
-h1 , #inputs {
+h1 {
   margin: auto;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-input {
-  margin-top: 20px;
-  display: inline-block;
+#inputs {
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  height: 85px;
 }
 
 #meme-image-container {
@@ -13,7 +20,7 @@ input {
   background-color: white;
   position: relative;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   display: block;
   z-index: -1;
   height: 400px;
@@ -43,7 +50,7 @@ input {
   width: fit-content;
   display: block;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 15px;
   align-content: center;
 }
 
@@ -74,7 +81,8 @@ input {
 #memes {
   position: relative;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   display: block;
   height: 72px;
   width: 350px;
