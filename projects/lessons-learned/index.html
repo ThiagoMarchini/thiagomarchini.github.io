@@ -26,33 +26,66 @@
     </aside>
   </section>
   <section id="listas">
-    <ol id="licoes_aprendidas">
-        <h2>Lições aprendidas:</h2>
-        <li>Ubuntu;</li>
-        <li>Setup campeão;</li>
-        <li>Unix;</li>
-        <li>Bash;</li>
-        <li>Shell script;</li>
-        <li>Git;</li>
-        <li>GitHub;</li>
-        <li>HTML;</li>
-        <li>CSS;</li>
-        <li>HTML Semântico</li>
-        <li>Javascript;</li>
-        <li>Lógica de programação;</li>
-        <li>Algoritmos;</li>
-        <li>DOM;</li>
-        <li>Eventos;</li>
-    </ol>
-    <ul id="licoes_a_aprender">
-        <h2>Lições por aprender:</h2>
-        <li>Testes unitários;</li>
-        <li>Javascript assíncrono;</li>
-        <li>Testes automatizados com JEST;</li>
-        <li>Front-End;</li>
-        <li>Back-End;</li>
-        <li>Ciência da computação.</li>
-    </ul>
+    <div id="licoes_aprendidas">
+      <h2>Lições Aprendidas</h2>
+      <button class="accordion">Fundamentos do Desenvolvimento Web</button>
+      <ul class="panel">
+          <li>Unix, Bash e Shell Script;</li>
+          <li>Git, GitHub e Internet;</li>
+          <li>Introdução à HTML e CSS;</li>
+          <li>Introdução à Javascript e lógica de programação;</li>
+          <li>JavaScript: DOM, Eventos e Web Storage;</li>
+          <li>HTML e CSS: Forms, Flexbox e Responsivo;</li>
+          <li>Introdução à JavaScript ES6 e Testes Unitários;</li>
+      </ul>
+    </div>
+    <div id="licoes_a_aprender">
+      <h2>Lições por aprender:</h2>
+      <button class="accordion">Fundamentos do Desenvolvimento Web</button>
+      <ul class="panel">
+          <li>High Order Functions do JavaScript ES6;</li>
+          <li>JavaScript Assíncrono e Promises;</li>
+          <li>Testes Automatizados com Jest;</li>
+      </ul>
+      <button class="accordion">Desenvolvimento Front-End</button>
+      <ul class="panel">
+        <li>Introdução à React;</li>
+        <li>Componentes com Estado, Eventos e Formulários com React</li>
+        <li>Ciclo de Vida de Componentes e React Router</li>
+        <li>Metodologias Ágeis</li>
+        <li>Testes automatizados com React Testing Library</li>
+        <li>Gerenciamento de estado com Redux</li>
+        <li>Projeto Jogo de Trivia</li>
+        <li>Context API e React Hooks</li>
+        <li>Projeto App de Receitas</li>
+      </ul>
+      <button class="accordion">Desenvolvimento Back-End</button>
+      <ul class="panel">
+        <li>Introdução à SQL</li>
+        <li>Funções SQL, Joins e Subqueries</li>
+        <li>Normalização e Modelagem de Banco de Dados</li>
+        <li>Introdução ao MongoDB</li>
+        <li>MongoDB: Updates Simples e Complexos</li>
+        <li>MongoDB: Aggregation Framework</li>
+        <li>Introdução ao desenvolvimento Web com NodeJS</li>
+        <li>NodeJS: Camada de Serviço e Arquitetura Rest e Restful</li>
+        <li>Autenticação e Upload de Arquivos</li>
+        <li>Deployment</li>
+        <li>Projeto Trybeer</li>
+        <li>Arquitetura: SOLID e ORM</li>
+        <li>Sockets</li>
+        <li>Projeto Trybeer II</li>
+      </ul>
+      <button class="accordion">Ciência da Computação</button>
+      <ul class="panel">
+        <li>Arquitetura de Computadores e Redes</li>
+        <li>Introdução à Python e Raspagem de Dados da Web</li>
+        <li>Programação Orientada a Objetos e Padrões de Projeto</li>
+        <li>Algoritmos e Estrutura de Dados</li>
+        <li>Estrutura de Dados: Hash e Set</li>
+        <li>Estrutura de Dados: Pilhas, Filas e Listas</li>
+      </ul>
+    </div>
     <table id="links">
       <tr>
         <th>Links Interessantes:</th>
@@ -84,5 +117,6 @@
 <footer id="rodape">
     <p>Criado por Thiago Marchini em 23/02/2021</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

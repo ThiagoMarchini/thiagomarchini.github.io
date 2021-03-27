@@ -110,3 +110,38 @@ header {
 #licoes_aprendidas , #licoes_a_aprender , #links {
   margin-bottom: 20px;
 }
+
+button.accordion {
+  height: 30px;
+  width: auto;
+  text-align: left;
+  padding: 0px 8px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+button.accordion:hover {
+  background-color: lightgray;
+  text-decoration: underline;
+}
+
+button.accordion.active {
+  background-color: lightgray;
+}
+
+.panel {
+  background-color: transparent;
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  width: 400px;
+  margin-left: 10px;
+}
+
+.panel.show {
+  opacity: 1;
+  height: fit-content;
+  padding: 8px;
+}
