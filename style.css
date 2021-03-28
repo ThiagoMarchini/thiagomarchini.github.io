@@ -54,6 +54,7 @@ a:hover {
 }
 
 #selfie {
+    display:flex;
     padding: 10px;
     background-color: #E09F3E;
     border-radius: 30%;
@@ -69,7 +70,7 @@ a:hover {
 
 .navbar {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
 }
 
@@ -80,13 +81,19 @@ a:hover {
 .lists {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.sideBySide {
+    align-self: flex-start;
+    min-width: 250px;
+    max-width: 400px;
 }
 
 .lists2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .links {
