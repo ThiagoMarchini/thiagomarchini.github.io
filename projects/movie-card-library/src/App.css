@@ -1,0 +1,113 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.add-card {
+  margin: auto;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(45, 46, 46);
+  color: white;
+  display: flex;
+  font-size: x-large;
+  height: 80px;
+  justify-content: center;
+  margin: 0;
+}
+
+.loading {
+  font-size: large;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.movie-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.movie-details .details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 75%;
+}
+
+.movie-details .links {
+  margin: 20px 0;
+}
+
+.movie-details .links a {
+  margin: 20px;
+}
+
+.movie-details img {
+  width: 80%;
+}
+
+.movie-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+}
+
+.form-input input {
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+
+.form-input textarea {
+  display: flex;
+  height: 100px;
+  margin: auto;
+  width: 60%;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movie-card {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  padding-bottom: 10px;
+  width: 35%;
+}
+
+.card-title {
+  color: white;
+  left: 10px;
+  position: relative;
+  top: -20px;
+}
+
+.storyline {
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: justify;
+  width: 85%;
+}

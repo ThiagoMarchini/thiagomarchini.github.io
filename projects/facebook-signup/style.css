@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook-logo {
+  height: 60px;
+}
+
+.twoInputs {
+  display: flex;
+
+}
+
+.form-group {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.form-control {
+  display: flex;
+  align-self: flex-end;
+}
+
+.facebook-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-content {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-content {
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameFields {
+  display: flex;
+}
+
+#facebook-register {
+  background-color: #69a74e;
+  color: white;
+  margin: 10px 0;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+#mobile {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+#hidden {
+  display: none;
+}
+
+@media screen and ( max-width : 425px ) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+  section footer {
+    text-align: center;
+    color: #798ec9;
+  }
+
+  hr {
+    align-self: center;
+    width: 30%;
+    height: 1px;
+  }
+
+  #hidden {
+    display: contents;
+  }
+
+  .right-content {
+    display: none;
+  }
+
+  .left-content {
+    display: none;
+  }
+
+  .facebook-login {
+    display: none;
+  }
+
+  .top-bar {
+    width: 100%;
+    height: 45px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+  }
+
+  #mobile {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .separator {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .button-login2 {
+    background-color: #3d40f2;
+    margin-top: 5px;
+    width: 43%;
+    border-radius: 5px;
+  }
+
+  #mobile p {
+    color: #798ec9;
+  }
+
+}
