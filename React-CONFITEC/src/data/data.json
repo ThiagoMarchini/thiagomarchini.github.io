@@ -1,0 +1,121 @@
+{
+    "Header": {
+
+        "title": "CONFITEC",
+        "paragraph": "Atuamos desde maio de 2015 com alta qualidade de serviço, pontualidade, agilidade, segurança, sigilo e preço justo. Utilizamos tecnologia de ponta e colaboradores constantemente capacitados. O resultado é um atendimento diferenciado, ético, transparente e confidencial."
+
+    },
+    "About": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-bank",
+            "name": "Fixação",
+            "text": "Fixação de Caixas Eletrônicos e Cofres seguindo as normas e especificações exigidas."
+        },
+        {
+            "icon": "fa fa-wrench",
+            "name": "Reformas de cofres",
+            "text": "Reformas de Cofres com danos causados por vandalismo e ato sinistro"
+        },
+        {
+            "icon": "fa fa-money",
+            "name": "Reformas de caixas eletrônicos",
+            "text": "Reformas por soldagem interna e externa na porta do Cofre do Caixa Eletrônico, com utilização de esmeril, aplicação de massa e pintura."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Atendimento no local",
+            "text": "Atendemos no local (ou conforme solicitação) qualquer ocorrência de sinistro, mudança de segredo, travamento de cofre, Caixas Eletrônicos, nivelamento de portas, manutenção preventiva e corretiva em geral."
+        },
+        {
+            "icon": "fa fa-sitemap",
+            "name": "Infraestrutura",
+            "text": "Fazemos toda a infraestrutura para o recebimento dos Caixas Eletrônicos (elétrica e cabo de rede)."
+        },
+        {
+            "icon": "fa fa-camera",
+            "name": "Imagens",
+            "text": "Fazemos baixa de aplicativo, imagens dos Caixas Eletrônicos."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "José Paulo Vaz",
+            "job": "Comercial e Vendas"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Valdir Silva",
+            "job": "Engenheiro de Produtos"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Gabriel Pio Dias Neves Oliveira",
+            "job": "Coordenador Técnico e Comercial"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Andrea Camargo",
+            "job": "Financeiro"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
